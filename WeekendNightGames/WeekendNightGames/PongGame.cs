@@ -31,6 +31,8 @@ namespace WeekendNightGames
         int ymin = 75;
         int xmin = 500;
 
+        bool shotxset = false;
+        bool shotyset = false;
 
          public PongGame()
         {
@@ -111,15 +113,33 @@ namespace WeekendNightGames
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
-
-            if (GamePad.GetState(PlayerIndex.One).Buttons.A == ButtonState.Pressed && takeShot == false)
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Y == ButtonState.Pressed && takeShot == false && shotxset && shotyset)
             {
-                takeShot = true;
-                shoot();
+                    takeShot = true;
+                    //shoot();
             }
+            else if (GamePad.GetState(PlayerIndex.One).Buttons.X == ButtonState.Pressed && takeShot == false && shotxset)
+            {
+                        shotyset = true;
+            }
+
+
+            else if (GamePad.GetState(PlayerIndex.One).Buttons.A == ButtonState.Pressed && takeShot == false)
+            {
+                if (shotxset == false)
+                {
+                    shotxset = true;
+                }
+            }
+
+             
+          
             updatePower();
+            UpdatePlayerX(gameTime);
+            UpdatePlayerY(gameTime);
             currentPower = (int)MathHelper.Clamp(currentPower, 0, 100);
-            UpdatePlayer(gameTime);
+            shooter.Position.X = (int) MathHelper.Clamp(shooter.Position.X, xmin, xmax);
+            shooter.Position.Y = (int)MathHelper.Clamp(shooter.Position.Y, ymin, ymax);
 
             base.Update(gameTime);
         }
@@ -170,10 +190,9 @@ namespace WeekendNightGames
                 powerPhase = powerPhase * -1;
                 currentPower += powerPhase;
             }
-            
-
  
         }
+
         private void DrawTable()
         {
             //Draw all of the elements that are part of the Controller detect screen
@@ -181,17 +200,33 @@ namespace WeekendNightGames
         }
 
 
-        private void UpdatePlayer(GameTime gameTime)
+        private void UpdatePlayerX(GameTime gameTime)
         {
+            if (shotxset)
+                return;
 
-            // Get Thumbstick Controls
-            
-            shooter.Position.X += GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X * playerReticleSpeed;
-            shooter.Position.Y -= GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.Y * playerReticleSpeed;
+            else
+            {
+                shooter.Position.X += playerReticleSpeed;
+                if (shooter.Position.X == xmax || shooter.Position.X == xmin)
+                    playerReticleSpeed = playerReticleSpeed * -1;
+            }
+        }
 
+        private void UpdatePlayerY(GameTime gameTime)
+        {
+            if (shotyset)
+                return;
+
+            if (shotxset)
+            {
+                shooter.Position.Y += playerReticleSpeed;
+                if (shooter.Position.Y == ymax || shooter.Position.Y == ymin)
+                {
+                    playerReticleSpeed = playerReticleSpeed * -1;
+                }
+            }
             // Make sure that the player does not go out of bounds
-            shooter.Position.X = MathHelper.Clamp(shooter.Position.X, xmin, xmax);
-            shooter.Position.Y = MathHelper.Clamp(shooter.Position.Y, ymin, ymax);
         }
 
 
