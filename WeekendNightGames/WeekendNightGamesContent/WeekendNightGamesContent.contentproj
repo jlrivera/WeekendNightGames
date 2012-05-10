@@ -89,8 +89,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="shooterpic.jpg">
-      <Name>shooterpic</Name>
+    <Compile Include="crosshair.png">
+      <Name>crosshair</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

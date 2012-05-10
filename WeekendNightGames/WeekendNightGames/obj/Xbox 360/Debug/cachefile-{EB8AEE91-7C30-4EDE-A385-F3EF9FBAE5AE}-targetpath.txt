@@ -5,4 +5,4 @@ Content\8bittable.xnb
 Content\8btitle.xnb
 Content\KTable.xnb
 Content\soloCup.xnb
-Content\shooterpic.xnb
+Content\crosshair.xnb

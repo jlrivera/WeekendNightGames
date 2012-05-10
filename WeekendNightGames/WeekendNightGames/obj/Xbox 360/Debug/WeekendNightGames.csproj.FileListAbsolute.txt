@@ -11,4 +11,4 @@ C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGame
 C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\8btitle.xnb
 C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\KTable.xnb
 C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\soloCup.xnb
-C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\shooterpic.xnb
+C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\crosshair.xnb

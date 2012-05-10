@@ -81,7 +81,7 @@ namespace WeekendNightGames
 
             // Load the player resources 
             Vector2 playerPosition = new Vector2(620, 185);
-            shooter.Initialize(Content.Load<Texture2D>("shooterpic"), playerPosition); 
+            shooter.Initialize(Content.Load<Texture2D>("crosshair"), playerPosition); 
             //load cups
 
             for (int i = 0; i < 10; i++)
@@ -119,6 +119,8 @@ namespace WeekendNightGames
             }
             updatePower();
             currentPower = (int)MathHelper.Clamp(currentPower, 0, 100);
+            UpdatePlayer(gameTime);
+
             base.Update(gameTime);
         }
 
@@ -150,6 +152,7 @@ namespace WeekendNightGames
         private void shoot()
         {
             //this is where the shot arc and such are drawn 
+            takeShot = false;
         }
 
         private void updatePower()
@@ -176,5 +179,21 @@ namespace WeekendNightGames
             //Draw all of the elements that are part of the Controller detect screen
             spriteBatch.Draw(pTablebackground, Vector2.Zero, Color.White);
         }
+
+
+        private void UpdatePlayer(GameTime gameTime)
+        {
+
+            // Get Thumbstick Controls
+            
+            shooter.Position.X += GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X * playerReticleSpeed;
+            shooter.Position.Y -= GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.Y * playerReticleSpeed;
+
+            // Make sure that the player does not go out of bounds
+            shooter.Position.X = MathHelper.Clamp(shooter.Position.X, xmin, xmax);
+            shooter.Position.Y = MathHelper.Clamp(shooter.Position.Y, ymin, ymax);
+        }
+
+
     }
 }
