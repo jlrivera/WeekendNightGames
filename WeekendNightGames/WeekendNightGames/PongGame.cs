@@ -22,10 +22,12 @@ namespace WeekendNightGames
         int powerPhase = -1;
         bool takeShot = false;
         SoloCup[] pyramid;
-        int xstart= 575;
-        int ycupLocations = 130;
-        int xmax = 750;
-        int ymax = 250;
+        int[] xstart= {545,610,675,740,578,643,698,610,675,643};
+        int[] ycupLocations = {110,110,110,110,160,160,160,210,210,260};
+        Player shooter;
+        float playerReticleSpeed;
+        
+
          public PongGame()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -43,7 +45,17 @@ namespace WeekendNightGames
         /// </summary>
         protected override void Initialize()
         {
+            
+            
+            shooter = new Player();
+            playerReticleSpeed = 8.0f;
+            // player reticle speed
             pyramid = new SoloCup[10];
+            for (int i = 0; i < 10; i++)
+            {
+                
+                pyramid[i] = new SoloCup();
+            }
             base.Initialize();
         }
 
@@ -65,10 +77,10 @@ namespace WeekendNightGames
 
             //load cups
 
-            for (int i = 0; i < 11; i++)
+            for (int i = 0; i < 10; i++)
             { 
-                Vector2 playerPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.X, GraphicsDevice.Viewport.TitleSafeArea.Y + GraphicsDevice.Viewport.TitleSafeArea.Height / 2);
-                pyramid[i].Initialize(Content.Load<Texture2D>("soloCup"), playerPosition); 
+                Vector2 cupPosition = new Vector2(xstart[i],ycupLocations[i]);
+                pyramid[i].Initialize(Content.Load<Texture2D>("soloCup"), cupPosition); 
             }
         }
 
@@ -111,23 +123,25 @@ namespace WeekendNightGames
         {
             graphics.GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
-            DrawTable();    
-            //Draw the negative space for the health bar
+            DrawTable();
+            
+            //Draw the negative space for the power bar
             spriteBatch.Draw(powerBar, new Rectangle(100, 100, powerBar.Width, powerBar.Height), new Rectangle(0, 45, 0, powerBar.Height), Color.Gray);
 
-            //Draw the current health level based on the current Health
+            //Draw the current power level
             spriteBatch.Draw(powerBar, new Rectangle(100, 100, powerBar.Width, (int)(powerBar.Height * ((double)currentPower / 100))), new Rectangle(0, 45, 0, 0), Color.Blue);
             
-            //Draw the box around the health bar
+            //Draw the box around the power bar
             spriteBatch.Draw(powerBar, new Rectangle(100, 100, powerBar.Width, powerBar.Height), new Rectangle(0, 0, 44, powerBar.Height), Color.White);
-
+            foreach (SoloCup cup in pyramid) 
+            { cup.Draw(spriteBatch); } 
             spriteBatch.End();
             base.Draw(gameTime);
         }
 
         private void shoot()
         {
-            //this is where the shot arc and such are drawn
+            //this is where the shot arc and such are drawn 
         }
 
         private void updatePower()
