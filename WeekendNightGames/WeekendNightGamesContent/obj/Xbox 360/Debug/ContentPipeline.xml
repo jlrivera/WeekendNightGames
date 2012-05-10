@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>TitleScreen.png</Source>
+      <Name>TitleScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\jose l rivera ii\documents\visual studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\TitleScreen.xnb</Output>
+      <Time>2012-05-08T16:36:54.1651265-04:00</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu.png</Source>
+      <Name>MainMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\jose l rivera ii\documents\visual studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\MainMenu.xnb</Output>
+      <Time>2012-05-09T17:48:15.9892504-04:00</Time>
+    </Item>
+    <Item>
+      <Source>powerbar.png</Source>
+      <Name>powerbar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\jose l rivera ii\documents\visual studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\powerbar.xnb</Output>
+      <Time>2012-05-09T21:51:47.5622336-04:00</Time>
+    </Item>
+    <Item>
+      <Source>8bittable.png</Source>
+      <Name>8bittable</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\8bittable.xnb</Output>
+      <Time>2012-05-09T17:34:10.9309158-04:00</Time>
+    </Item>
+    <Item>
+      <Source>8btitle.png</Source>
+      <Name>8btitle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\8btitle.xnb</Output>
+      <Time>2012-05-09T17:34:09.535836-04:00</Time>
+    </Item>
+    <Item>
+      <Source>KTable.png</Source>
+      <Name>KTable</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\KTable.xnb</Output>
+      <Time>2012-05-09T17:34:09.5378361-04:00</Time>
+    </Item>
+    <Item>
+      <Source>soloCup.png</Source>
+      <Name>soloCup</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\soloCup.xnb</Output>
+      <Time>2012-05-09T23:02:09.4857138-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Xbox360</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGamesContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGamesContent\obj\Xbox 360\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-03-26T15:34:09.8647417-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

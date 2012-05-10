@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeekendNightGames", "WeekendNightGames\WeekendNightGames\WeekendNightGames.csproj", "{0E55909E-902F-4CF9-BC6D-D434B6ABABA8}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "WeekendNightGamesContent", "WeekendNightGames\WeekendNightGamesContent\WeekendNightGamesContent.contentproj", "{EB8AEE91-7C30-4EDE-A385-F3EF9FBAE5AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Xbox 360 = Debug|Xbox 360
+		Release|Xbox 360 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E55909E-902F-4CF9-BC6D-D434B6ABABA8}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{0E55909E-902F-4CF9-BC6D-D434B6ABABA8}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{0E55909E-902F-4CF9-BC6D-D434B6ABABA8}.Debug|Xbox 360.Deploy.0 = Debug|Xbox 360
+		{0E55909E-902F-4CF9-BC6D-D434B6ABABA8}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{0E55909E-902F-4CF9-BC6D-D434B6ABABA8}.Release|Xbox 360.Build.0 = Release|Xbox 360
+		{0E55909E-902F-4CF9-BC6D-D434B6ABABA8}.Release|Xbox 360.Deploy.0 = Release|Xbox 360
+		{EB8AEE91-7C30-4EDE-A385-F3EF9FBAE5AE}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{EB8AEE91-7C30-4EDE-A385-F3EF9FBAE5AE}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+c:\users\jose l rivera ii\documents\visual studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\WeekendNightGames.exe
+c:\users\jose l rivera ii\documents\visual studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\WeekendNightGames.pdb
+c:\users\jose l rivera ii\documents\visual studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+c:\users\jose l rivera ii\documents\visual studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\jose l rivera ii\documents\visual studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\obj\Xbox 360\Debug\WeekendNightGames.exe
+c:\users\jose l rivera ii\documents\visual studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\obj\Xbox 360\Debug\WeekendNightGames.pdb
+c:\users\jose l rivera ii\documents\visual studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\TitleScreen.xnb
+c:\users\jose l rivera ii\documents\visual studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\MainMenu.xnb
+c:\users\jose l rivera ii\documents\visual studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\powerbar.xnb
+C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\8bittable.xnb
+C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\8btitle.xnb
+C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\KTable.xnb
+C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\soloCup.xnb
