@@ -6,3 +6,11 @@ Content\8btitle.xnb
 Content\KTable.xnb
 Content\soloCup.xnb
 Content\crosshair.xnb
+Content\shotmade.xnb
+Content\gamemusic.xnb
+Content\gamemusic.wma
+Content\GameFont.xnb
+Content\qmusic.xnb
+Content\qmusic.wma
+Content\titlemusic.xnb
+Content\titlemusic.wma

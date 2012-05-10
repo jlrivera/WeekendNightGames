@@ -29,17 +29,26 @@ namespace WeekendNightGames
             Active = true;
 
 
-        } 
+        }
 
         public void Update()
         {
-       
+
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(CupTexture, Position, null, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.None, 0f);
-        } 
+        }
+
+        public int Height
+        {
+            get { return CupTexture.Height; }
+        }
+        public int Width
+        {
+            get { return CupTexture.Width; }
+        }
     }
 
 }

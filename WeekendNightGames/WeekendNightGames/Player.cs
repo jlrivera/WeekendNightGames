@@ -34,9 +34,13 @@ namespace WeekendNightGames
 
         public int Height
         {
-            get { return PlayerTexture.Height; }
+            get { return PlayerTexture.Height / 2; }
         }
 
+        public int Width
+        {
+            get { return PlayerTexture.Width / 2; }
+        }
         public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(PlayerTexture, Position, null, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.None, 0f);

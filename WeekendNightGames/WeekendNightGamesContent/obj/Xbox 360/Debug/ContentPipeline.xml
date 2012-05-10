@@ -73,6 +73,54 @@
       <Output>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\crosshair.xnb</Output>
       <Time>2012-05-10T01:18:08.4906896-04:00</Time>
     </Item>
+    <Item>
+      <Source>shotmade.wav</Source>
+      <Name>shotmade</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\shotmade.xnb</Output>
+      <Time>2012-05-10T09:06:34.0692632-04:00</Time>
+    </Item>
+    <Item>
+      <Source>gamemusic.mp3</Source>
+      <Name>gamemusic</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\gamemusic.xnb</Output>
+      <Extra>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\gamemusic.wma</Extra>
+      <Time>2012-05-10T09:11:38.4856749-04:00</Time>
+    </Item>
+    <Item>
+      <Source>GameFont.spritefont</Source>
+      <Name>GameFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\GameFont.xnb</Output>
+      <Time>2012-05-10T09:44:26.8322578-04:00</Time>
+    </Item>
+    <Item>
+      <Source>qmusic.mp3</Source>
+      <Name>qmusic</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\qmusic.xnb</Output>
+      <Extra>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\qmusic.wma</Extra>
+      <Time>2012-05-10T14:24:19.8478339-04:00</Time>
+    </Item>
+    <Item>
+      <Source>titlemusic.mp3</Source>
+      <Name>titlemusic</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\titlemusic.xnb</Output>
+      <Extra>C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\titlemusic.wma</Extra>
+      <Time>2012-05-10T14:49:47.4962104-04:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Xbox360</TargetPlatform>

@@ -10,7 +10,7 @@ namespace WeekendNightGames
         /// </summary>
         static void Main(string[] args)
         {
-            using (PongGame game = new PongGame())
+            using (Game1 game = new Game1())
             {
                 game.Run();
             }

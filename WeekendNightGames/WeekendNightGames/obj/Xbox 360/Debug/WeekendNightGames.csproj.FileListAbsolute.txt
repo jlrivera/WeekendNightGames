@@ -12,3 +12,11 @@ C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGame
 C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\KTable.xnb
 C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\soloCup.xnb
 C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\crosshair.xnb
+C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\shotmade.xnb
+C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\gamemusic.xnb
+C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\gamemusic.wma
+C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\GameFont.xnb
+C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\qmusic.xnb
+C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\qmusic.wma
+C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\titlemusic.xnb
+C:\Users\Jose L Rivera II\Documents\Visual Studio 2010\Projects\WeekendNightGames\WeekendNightGames\WeekendNightGames\bin\Xbox 360\Debug\Content\titlemusic.wma

@@ -18,7 +18,7 @@ namespace WeekendNightGames
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-
+        Song gameplayMusic;
         //Background textures for the various screens in the game
         Texture2D mControllerDetectScreenBackground;
         Texture2D mTitleScreenBackground;
@@ -58,6 +58,7 @@ namespace WeekendNightGames
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            gameplayMusic = Content.Load<Song>("titlemusic");
 
             //Load the screen backgrounds
             mControllerDetectScreenBackground = Content.Load<Texture2D>("8btitle");
@@ -66,9 +67,22 @@ namespace WeekendNightGames
             //Initialize the screen state variables
             mIsTitleScreenShown = false;
             mIsControllerDetectScreenShown = true;
-
+            PlayMusic(gameplayMusic);
         }
 
+        private void PlayMusic(Song song)
+        {
+            // Due to the way the MediaPlayer plays music,
+            // we have to catch the exception. Music will play when the game is not tethered
+            try
+            {
+                // Play the music
+                MediaPlayer.Play(song);
+                // Loop the currently playing song
+                MediaPlayer.IsRepeating = true;
+            }
+            catch { }
+        }
         /// <summary>
         /// UnloadContent will be called once per game and is the place to unload
         /// all content.
@@ -122,6 +136,7 @@ namespace WeekendNightGames
             else if (mIsTitleScreenShown)
             {
                 DrawTitleScreen();
+                
             }
 
             spriteBatch.End();
