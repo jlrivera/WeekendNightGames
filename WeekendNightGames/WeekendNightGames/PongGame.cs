@@ -26,7 +26,11 @@ namespace WeekendNightGames
         int[] ycupLocations = {110,110,110,110,160,160,160,210,210,260};
         Player shooter;
         float playerReticleSpeed;
-        
+        int xmax = 820;
+        int ymax = 330;
+        int ymin = 75;
+        int xmin = 500;
+
 
          public PongGame()
         {
@@ -53,7 +57,6 @@ namespace WeekendNightGames
             pyramid = new SoloCup[10];
             for (int i = 0; i < 10; i++)
             {
-                
                 pyramid[i] = new SoloCup();
             }
             base.Initialize();
@@ -75,6 +78,10 @@ namespace WeekendNightGames
             pTablebackground = Content.Load<Texture2D>("8bittable");
             powerBar = Content.Load<Texture2D>("powerbar") as Texture2D;
 
+
+            // Load the player resources 
+            Vector2 playerPosition = new Vector2(620, 185);
+            shooter.Initialize(Content.Load<Texture2D>("shooterpic"), playerPosition); 
             //load cups
 
             for (int i = 0; i < 10; i++)
@@ -135,6 +142,7 @@ namespace WeekendNightGames
             spriteBatch.Draw(powerBar, new Rectangle(100, 100, powerBar.Width, powerBar.Height), new Rectangle(0, 0, 44, powerBar.Height), Color.White);
             foreach (SoloCup cup in pyramid) 
             { cup.Draw(spriteBatch); } 
+            shooter.Draw(spriteBatch);
             spriteBatch.End();
             base.Draw(gameTime);
         }

@@ -33,6 +33,7 @@ namespace WeekendNightGames
 
         public void Update()
         {
+       
         }
 
         public void Draw(SpriteBatch spriteBatch)
